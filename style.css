@@ -1,19 +1,28 @@
 body {
     background-color: white;
-    color: #0057ff;
     font-family: Arial, sans-serif;
+    margin: 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 100vh;
-    margin: 0;
+}
+
+.hero {
+    text-align: center;
 }
 
 h1 {
     color: #0057ff;
     font-size: 60px;
     font-weight: bold;
-    text-align: center;
+    margin: 0;
+}
+
+p {
+    color: #0057ff;
+    font-size: 18px;
+    margin-top: 8px;
 }
