@@ -1,15 +1,19 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #0057ff;
     font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
-    color: white;
-    font-size: 50px;
-}
-
-p {
-    color: white;
-    font-size: 20px;
+    color: #0057ff;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
 }
