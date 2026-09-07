@@ -11,28 +11,29 @@ body {
 
 .hero {
     text-align: center;
-    max-width: 600px;
+    max-width: 520px;
 }
 
 .logo {
-    width: 320px;          /* ← This makes the logo smaller */
-    max-width: 90%;
+    width: 280px;
+    max-width: 85%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .tagline {
-    color: #0057ff;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 0 12px 0;
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 14px 0;
+    letter-spacing: 0.5px;
 }
 
 .description {
-    color: #333;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 0 25px 0;
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 28px 0;
 }
 
 .btn {
@@ -40,13 +41,12 @@ body {
     background-color: #0057ff;
     color: white;
     text-decoration: none;
-    padding: 12px 28px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
     transition: background-color 0.2s;
 }
 
 .btn:hover {
-    background-color: #003bb5;
-}
+    background-color: #0040c4;
